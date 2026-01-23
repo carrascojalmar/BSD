@@ -2,6 +2,7 @@
 # Load the functions
 #
 source("functions.R")
+library(gamlss)
 #------------------
 # Simulation Study:
 
@@ -37,4 +38,5 @@ plotBSD(y1, y2, param, dist = "Simplex",
         plot_type = "contour",
         title = NULL, n_grid = 150)
 #----------------------------------
+
 #------------------------------------------------------------------
